@@ -1,0 +1,60 @@
+body
+{
+    text-align: center;
+    color: white;
+    background-image: url(../image.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+
+}
+
+#yes{
+    position:fixed; /* Position the button relative to the viewport */
+    top: 150px; /* Adjust top distance as needed */
+    right: 200px; /* Adjust right distance as needed */
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50%;
+    cursor:pointer;
+    font-size:60px;
+}
+#yes:hover
+{
+    background-color: red;
+}
+#moveButton
+{
+    color: black;
+    background-color: aqua;
+    border-radius: 50%;
+    font-size: 60px;
+}
+#moveButton:hover
+{
+    color: blue;
+    background-color: red;
+}
+h1
+{
+    font-size: 85px;
+    color: aqua;
+}
+h2
+{
+    color:blue;
+    font-size:  80px;;
+}
+/* Add your styles here */
+.blurred {
+    filter: blur(5px); /* Adjust the blur strength as needed */
+  }
+#output
+{
+    color:rgb(30, 232, 232);
+    border-radius: 2px;
+    font-size: 90px;
+    font-weight: bold;
+}  
